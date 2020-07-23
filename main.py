@@ -1,17 +1,4 @@
-# Test Code to accompany the book Automating the Boring Stuff with Python
+import random
 
-# Sample Calculator
-
-print('Python Calculator')
-
-num1 = input("")
-operator = input("")
-num2 = input("")
-
-if operator == '+':
-    print(int(num1) + int(num2))
-elif operator == "-":
-    print(int(num1) - int(num2))
-else:
-    print('Error')
-
+for i in range(20):
+    print(random.randint(1,3))
