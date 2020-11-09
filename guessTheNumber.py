@@ -12,11 +12,13 @@ while True:
         print('Your guess is too high')
         guesses += 1
     elif guess == num:
-        print('Congratulations! Your guess is correct\n')
+        print('Congratulations! Your guess is correct')
         guesses += 1
-        print('You guessed the correct number in ' + str(guesses) + ' guesses.')
         break
     guess = int(input('Guess another number: '))
+
+print('You guessed the correct number in ' + str(guesses) + ' guesses.')
+
 
 
 
