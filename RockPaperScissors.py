@@ -5,7 +5,7 @@ print('Rock Paper Scissors')
 wins = 0
 losses = 0
 ties = 0
-print('WINS: ' + str(wins) + ', LOSSES: ' + str(losses) + ', TIES: ' + str(ties) + '\n')
+print('WINS: %s, LOSSES: %s, TIES: %s\n' %(wins, losses, ties))
 
 while True:
     num = random.randint(1, 3)
@@ -60,4 +60,4 @@ while True:
     else:
         print('Please enter a valid move.')
 
-    print('WINS: ' + str(wins) + ', LOSSES: ' + str(losses) + ', TIES: ' + str(ties) + '\n')
+    print('WINS: %s, LOSSES: %s, TIES: %s\n' % (wins, losses, ties))
